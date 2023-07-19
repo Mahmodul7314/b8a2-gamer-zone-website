@@ -332,6 +332,7 @@ border:1px solid #F948B2;
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+    gap:1rem;
   
     
 }
@@ -537,12 +538,23 @@ padding:1rem;
     justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(3,1fr);
-    
- 
-   
-  
  }
-
-
-
+.footer-container{
+    padding: 10px;
+    width: 100%;
+}
+.footer-ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1rem;
+   
+}
+.menu-footer-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+}
+.copyright{
+    dis
+}
 }
