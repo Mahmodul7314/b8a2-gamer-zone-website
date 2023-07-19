@@ -164,7 +164,8 @@ text-transform: uppercase;
     min-height: 500px;
     margin-top: 50px;
     padding: 20px 240px 20px 240px;
-    border: 1px solid tomato;
+   
+    margin-bottom: 50px;
 }
 
 .online-game-title{
@@ -213,6 +214,148 @@ font-weight: 400;
 .card-description{
     margin-top:1rem;
 }
+/*-----------play instantly container style*/
+
+.play-instantly-container{
+
+  padding: 20px 100px 20px 200px;
+    display: flex;
+    align-items: center;
+    gap:8rem;
+ 
+}
+
+.play-ins-image img{
+  max-width: 480px;
+  max-height: 550px;
+
+}
+.play-instantly-tex{
+    width: 50%;
+    
+   
+}
+.play-ins-image{
+    width: 50%;
+}
+
+.play-ins-title{
+    text-align: right;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.play-ins-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.my-talkino img{
+    max-width:240px;
+    min-height:280px;
+}
+.my-talkino{
+    position: relative;
+bottom: 200px;
+right: 100px;}
+
+/*icon container-------------------------*/
+
+.icon-container{
+    min-height: 500px;
+    padding:20px 150px 20px 150px;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
+    
+}
+
+.icon img{
+    width: 2rem;
+    height: 2rem;
+}
+.icon li{
+    list-style: none;
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;}
+    
+.icon{
+    display: flex;
+  align-items: center;
+  gap:1rem;
+ 
+  border-radius: 50px;
+  background: #FFF;
+ padding: 14px;
+ width: 14rem;
+ height: 4rem;
+
+}
+.all-icons{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+  grid-template-rows: auto;
+    margin-top: 6rem;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+
+
+.icon:hover{
+border:1px solid #F948B2;
+
+}
+
+.icon li:hover{
+    color: #F948B2;  
+}
+.footer-container{
+    min-height: 500px;
+    background: #0B0223; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -260,7 +403,7 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
 }
-.nav-container, .nav-items-full,.ul-items1 ul, .banner-container{
+.nav-container, .nav-items-full,.ul-items1 ul, .banner-container,.play-instantly-container{
     flex-direction: column;
 }
 .ul-items1{
@@ -301,13 +444,41 @@ padding: 5px;
     margin-top: 1rem;
     width:100%;
 }
+.play-instantly-container,.play-instantly-tex,.play-ins-title, .play-ins-description{
+    width: 100%;
+    text-align: center;
+    margin-left:1.8rem;
 
-./*card-description{
-br{
+}
+.play-ins-title{
+    margin-bottom: 30px;
+    margin-left: 6rem;
+}
+.play-ins-description{
+    margin-left: 6rem;
+}
+.play-instantly-container{
+    padding: 5px 5px 5px 5px;
+}
+  .play-ins-image{
+margin-right: 3rem;
+padding:1rem;
+  }
+  .icon-container{
+    background: none;
+   margin-right: 30px;
+  }
+ .all-icons{
+    background: 0;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
     
-}
-}
-  */
+ 
+   
+  
+ }
 
 
 
