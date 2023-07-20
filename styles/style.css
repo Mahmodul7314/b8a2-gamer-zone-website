@@ -225,9 +225,12 @@ font-weight: 400;
 .card-description{
     margin-top:1rem;
 }
-#card4:hover{
 
-color: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+#card4 img:hover{
+  
+    filter: brightness(40%);
+  
+
 }
 /*-----------play instantly container style*/
 
