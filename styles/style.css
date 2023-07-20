@@ -84,19 +84,30 @@ padding: 5px 10px;
     justify-content: space-between;
     align-items: center;
     min-height: 600px;
-    gap: 40px;
-
  
 }
 
-.banner-container{padding: 5px 220px 20px 220px;}
-
+.banner-img{
+    padding-right: 200px;
+}
 .banner-img img{
     max-width: 500px;
     max-height: 500px;
 }
+.banner-text{
+    
+    height: 600px;
+    padding:10rem;
+   
+}
 
-.banner-text{}
+.banner-text{
+    background-image: url("../images/Group.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+
+}
    
 .banner-title{
     color: #0B0223;
@@ -471,9 +482,16 @@ margin-top: 2rem;
     justify-content: center;
     align-items: center;
 }
-.nav-container, .nav-items-full,.ul-items1 ul, .banner-container,.play-instantly-container{
+.nav-container, .nav-items-full,.ul-items1 ul,.play-instantly-container{
     flex-direction: column;
 }
+.banner-container{
+    flex-direction: column-reverse;
+    margin-left: 14rem;
+}
+.banner-text{
+    margin-top: 30px;}
+
 .ul-items1{
     margin-top:1rem;
     margin-bottom: 1rem;
@@ -491,7 +509,10 @@ margin-right: 150px;
 .banner-img img{
     padding-left: 2rem;
     margin-left: 10px;
-}
+
+    
+    }
+
 .online-game-container{
  
     padding: 10px;
@@ -596,7 +617,13 @@ padding:1rem;
           margin-top:1rem;
           margin-bottom: 1rem;
       }
+      .banner-container{
+        flex-direction: column-reverse;
       
+    }
+    .banner-text{
+        margin-top: 30px;
+   }
       
       .ul-items2 ul{
       padding:10px 20px;
